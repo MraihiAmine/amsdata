@@ -1,11 +1,10 @@
 package com.sip.amsdata.repositories;
 
 
-import com.sip.amsdata.entities.Provider;
+import com.sip.amsdata.entities.Article;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ProviderRepository extends CrudRepository<Provider, Long> {
-
+public interface ArticleRepository extends CrudRepository<Article, Long> {
 }
